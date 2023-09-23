@@ -1,12 +1,12 @@
 {
 	"SDKVersion": 2,
-	"Author": "Elgato Systems",
+	"Author": "Filip Chalupa",
 	"CodePath": "app.html",
-	"Description": "Example description",
-	"Name": "Stream Deck Template",
+	"Description": "Countdown timer with remote control.",
+	"Name": "Just Countdown",
 	"Icon": "actions/template/assets/action",
-	"URL": "https://www.elgato.com/en/gaming/stream-deck",
-	"Version": "1.0.2",
+	"URL": "https://just-countdown.eu/",
+	"Version": "1.0.0",
 	"Software": {
 		"MinimumVersion": "5.0"
 	},
@@ -20,7 +20,7 @@
 			"MinimumVersion": "10"
 		}
 	],
-	"Category": "Template Plugin",
+	"Category": "Countdown",
 	"CategoryIcon": "actions/template/assets/actionimage",
 	"Actions": [
 		{
