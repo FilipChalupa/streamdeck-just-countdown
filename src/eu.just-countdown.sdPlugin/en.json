@@ -6,7 +6,7 @@
 		"Name": "Action",
 		"Tooltip": "This is the only action in this plugin"
 	},
-	"eu.just-countdown.setAction": {
+	"eu.just-countdown.set-action": {
 		"Name": "Set action",
 		"Tooltip": "Sets time of the countdown"
 	},

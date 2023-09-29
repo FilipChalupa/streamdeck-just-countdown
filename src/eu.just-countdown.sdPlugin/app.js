@@ -20,7 +20,7 @@ myAction.onDialRotate(({ action, context, device, event, payload }) => {
 	console.log('Your dial code goes here!')
 })
 
-const setAction = new Action('eu.just-countdown.setAction')
+const setAction = new Action('eu.just-countdown.set-action')
 setAction.onKeyUp(({ action, context, device, event, payload }) => {
 	console.log('Your key code goes here!')
 	console.log({ action, context, device, event, payload })

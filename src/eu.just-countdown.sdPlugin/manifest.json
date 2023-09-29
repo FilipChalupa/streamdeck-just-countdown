@@ -64,7 +64,7 @@
 				}
 			],
 			"Tooltip": "Sets time of the countdown",
-			"UUID": "eu.just-countdown.setAction",
+			"UUID": "eu.just-countdown.set-action",
 			"PropertyInspectorPath": "actions/template/property-inspector/inspector.html"
 		}
 	]
