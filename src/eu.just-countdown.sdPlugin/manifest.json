@@ -25,7 +25,7 @@
 	"Actions": [
 		{
 			"Icon": "actions/template/assets/actionimage",
-			"Name": "View",
+			"Name": "View (start/pause)",
 			"Controllers": ["Keypad"],
 			"States": [
 				{
