@@ -29,7 +29,10 @@
 			"Controllers": ["Keypad"],
 			"States": [
 				{
-					"Image": "actions/template/assets/action"
+					"Image": "actions/template/assets/play"
+				},
+				{
+					"Image": "actions/template/assets/pause"
 				}
 			],
 			"Tooltip": "Shows remmaining time",
