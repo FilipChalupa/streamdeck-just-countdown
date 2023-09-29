@@ -39,9 +39,16 @@ setAction.onKeyUp(async ({ payload }) => {
 })
 
 const viewAction = new Action('eu.just-countdown.view-action')
-viewAction.onKeyUp(({ action, context, device, event, payload }) => {
-	console.log('Your key code goes here!')
-	console.log({ action, context, device, event, payload })
+viewAction.onKeyUp(async ({ payload }) => {
+	const { identifier } = payload.settings
+	if (!identifier) {
+		return
+	}
+	await fetch(
+		`https://just-countdown.eu/api/control?id=${encodeURIComponent(
+			identifier,
+		)}&togglePaused`,
+	)
 })
 viewAction.onDialRotate(({ action, context, device, event, payload }) => {
 	console.log('Your dial code goes here!')
